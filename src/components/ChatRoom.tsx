@@ -75,10 +75,7 @@ export const ChatRoom = ({ isAdmin = false }: ChatRoomProps) => {
     });
   };
 
-  // 清除本地訊息
-  const clearLocalMessages = () => {
-    setMessages([]);
-  };
+
 
   // 清除 Firebase 資料庫中的訊息
   const clearFirebaseMessages = async () => {
