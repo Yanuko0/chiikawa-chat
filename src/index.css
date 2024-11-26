@@ -108,9 +108,56 @@ button:hover {
 /* 在原有的樣式基礎上添加 */
 
 .message-form {
+  width: 100%;
+}
+
+.input-wrapper {
   display: flex;
-  gap: 10px;
   align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.upload-button {
+  background: none;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  transition: color 0.3s;
+}
+
+.upload-button:hover {
+  color: #1890ff;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 8px 16px;
+  background-color: #1890ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #40a9ff;
 }
 
 .sticker-picker {

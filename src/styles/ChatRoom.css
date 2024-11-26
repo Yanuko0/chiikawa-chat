@@ -1,0 +1,95 @@
+.message {
+  position: relative;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  background: white;
+}
+
+.message-actions {
+  display: flex;
+  gap: 4px;
+}
+
+.reply-content {
+  font-size: 0.9em;
+  color: #666;
+  background: #f0f0f0;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+
+.edited-mark {
+  margin-left: 8px;
+  color: #999;
+}
+
+.reply-preview {
+  padding: 8px;
+  background: #f0f0f0;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-button {
+  background: none;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  transition: color 0.2s;
+}
+
+.action-button:hover {
+  color: #1890ff;
+}
+
+.action-button.confirm {
+  color: #52c41a;
+}
+
+.action-button.confirm:hover {
+  color: #73d13d;
+}
+
+.action-button.cancel {
+  color: #ff4d4f;
+}
+
+.action-button.cancel:hover {
+  color: #ff7875;
+}
+
+.edit-mode {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.edit-mode input {
+  flex: 1;
+  padding: 4px 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.no-group-selected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  color: #999;
+  font-size: 16px;
+}
+
+.group-select {
+  min-width: 200px;
+  margin-right: 10px;
+} 
